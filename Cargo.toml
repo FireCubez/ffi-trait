@@ -1,0 +1,13 @@
+[package]
+name = "ffi-trait"
+version = "0.1.0"
+authors = ["FireCubez <firecubeez@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[features]
+default = ["boxed"]
+boxed = []
+
+[dependencies]
+ffi-trait-macro = {path = "./ffi-trait-macro"}
